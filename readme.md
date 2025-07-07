@@ -25,3 +25,6 @@ To run the server, use the following command:
 
 ```bash
 npm start
+
+## Preview
+[Watch the video preview](mcp-video.mov)
