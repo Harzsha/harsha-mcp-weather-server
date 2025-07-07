@@ -1,6 +1,8 @@
 # Harsha MCP Weather Server
 
 ## Description
+## Preview
+[Watch the video preview](mcp-weather.gif)
 
 This project is a weather server that provides weather information for a given city using the Model Context Protocol (MCP). It utilizes the `@modelcontextprotocol/sdk` to create a server with a `get-weather` tool. This tool takes a city name as input and returns the weather data for that city. The server fetches geocoding data from `geocoding-api.open-meteo.com` to get the coordinates of the city, and then fetches weather forecast data from `api.open-meteo.com` using those coordinates.
 
@@ -26,5 +28,4 @@ To run the server, use the following command:
 ```bash
 npm start
 
-## Preview
-[Watch the video preview](mcp-video.mov)
+
